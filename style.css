@@ -1,0 +1,42 @@
+.sc-Nav-Menu
+
+    {
+        background-color: rgb(21, 21, 21);
+        padding: 1rem;
+    }
+    .sc-header
+    {
+        display: flex;
+        flex-direction: row;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0px auto;
+    }
+    .sc-header .sc-logo-Git-Gitub
+    {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    
+    }
+
+    .sc-header .sc-logo-Git-Gitub .sc-Imagem
+    {
+        width: 15%;
+        margin: 0;
+        
+    }
+    .sc-header .sc-Nome
+    {
+        font-size: 1.5rem;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font: optional;
+    }
+    
