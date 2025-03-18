@@ -37,6 +37,53 @@
         font-size: 1.5rem;
         color: white;
         font-family: 'Courier New', Courier, monospace;
-        font: optional;
     }
-    
+
+    /*Body*/
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #1e1e1e;
+        color: white;
+        padding: 20px;
+    }
+    .container {
+        max-width: 800px;
+        margin: auto;
+        background: #292929;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .bd-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        background: #1a1a1a;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .course {
+        background: #1a1a1a;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        /*justify-content: space-between;*/
+        align-items: center;
+        border: 1px solid #333;
+    }
+    .course-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .badge {
+        font-size: 14px;
+        color: #ff4081;
+    }
+    .course img {
+        width: 10%;
+        margin-right: 15px;
+        border-radius: 5px;
+    }
