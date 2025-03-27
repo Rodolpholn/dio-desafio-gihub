@@ -1,99 +1,176 @@
 ><!DOCTYPE html>
 <html lang="Pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Projeto Git/GIthub</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="sc-Nav-Menu">
-        <header class="sc-header">
-            <a href="#" class="sc-logo">
-                <svg xmlns="http://www.w3.org/2000/svg" width="98" height="40" fill="none" viewBox="0 0 98 40"><path fill="#fff" d="M97.058 32.674a6.446 6.446 0 01-3.963 5.96 6.428 6.428 0 01-7.016-1.389 6.443 6.443 0 014.545-10.999c1.704 0 3.338.678 4.544 1.883a6.446 6.446 0 011.89 4.545zM77.737 35.135a16.805 16.805 0 004.415-21.243 16.778 16.778 0 00-8.662-7.637 16.757 16.757 0 00-11.54-.227 16.776 16.776 0 00-8.954 7.292 16.805 16.805 0 003.58 21.4 16.762 16.762 0 0021.16.415zM33.963 20.765V0A12.847 12.847 0 0023 6.138 16.751 16.751 0 003.948 11.66a16.796 16.796 0 00-.458 19.85 16.77 16.77 0 008.342 6.278 16.752 16.752 0 0018.921-5.959 16.797 16.797 0 003.25-9.927c0-.384-.02-.762-.04-1.138zM42.208 12.934a6.387 6.387 0 00-4.517 1.873 6.4 6.4 0 00-1.871 4.522v19.364c3.41 0 6.68-1.356 9.091-3.77a12.878 12.878 0 003.766-9.101v-6.405a6.487 6.487 0 00-1.894-4.582 6.473 6.473 0 00-4.575-1.901z"></path><path fill="#fff" d="M48.687 6.44a6.445 6.445 0 01-3.971 5.95 6.427 6.427 0 01-7.012-1.396A6.443 6.443 0 0142.254 0c1.706 0 3.342.68 4.548 1.887a6.447 6.447 0 011.885 4.553z"></path></svg>
-            </a>
-            <a href="#" class="sc-logo-Git-Gitub">
-               <img class="sc-Imagem" src="https://i0.wp.com/seracoder.com/wp-content/uploads/2024/01/git-and-github.jpg?zoom=2&resize=950%2C500&ssl=1" alt="">
-            </a>
-            <H1 class="sc-Nome">Arthur</H1>
-        </header>
-        
+      <header class="sc-header">
+        <a href="#" class="sc-logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="98"
+            height="40"
+            fill="none"
+            viewBox="0 0 98 40"
+          >
+            <path
+              fill="#fff"
+              d="M97.058 32.674a6.446 6.446 0 01-3.963 5.96 6.428 6.428 0 01-7.016-1.389 6.443 6.443 0 014.545-10.999c1.704 0 3.338.678 4.544 1.883a6.446 6.446 0 011.89 4.545zM77.737 35.135a16.805 16.805 0 004.415-21.243 16.778 16.778 0 00-8.662-7.637 16.757 16.757 0 00-11.54-.227 16.776 16.776 0 00-8.954 7.292 16.805 16.805 0 003.58 21.4 16.762 16.762 0 0021.16.415zM33.963 20.765V0A12.847 12.847 0 0023 6.138 16.751 16.751 0 003.948 11.66a16.796 16.796 0 00-.458 19.85 16.77 16.77 0 008.342 6.278 16.752 16.752 0 0018.921-5.959 16.797 16.797 0 003.25-9.927c0-.384-.02-.762-.04-1.138zM42.208 12.934a6.387 6.387 0 00-4.517 1.873 6.4 6.4 0 00-1.871 4.522v19.364c3.41 0 6.68-1.356 9.091-3.77a12.878 12.878 0 003.766-9.101v-6.405a6.487 6.487 0 00-1.894-4.582 6.473 6.473 0 00-4.575-1.901z"
+            ></path>
+            <path
+              fill="#fff"
+              d="M48.687 6.44a6.445 6.445 0 01-3.971 5.95 6.427 6.427 0 01-7.012-1.396A6.443 6.443 0 0142.254 0c1.706 0 3.342.68 4.548 1.887a6.447 6.447 0 011.885 4.553z"
+            ></path>
+          </svg>
+        </a>
+        <a href="#" class="sc-logo-Git-Gitub">
+          <img
+            class="sc-Imagem"
+            src="https://i0.wp.com/seracoder.com/wp-content/uploads/2024/01/git-and-github.jpg?zoom=2&resize=950%2C500&ssl=1"
+            alt=""
+          />
+        </a>
+        <h1 class="sc-Nome">Arthur</h1>
+      </header>
     </nav>
-    <div class="container">
-        <div class="bd-header">
-            <span>Aulas Até essa etapa do Projeto</span>
-            <span>8 atividades</span>
+    <!--List 1-->
+    <div id="toggleCourses1" class="container">
+      <div class="bd-header" id="toggleCourses">
+        <img class="bd-arrow" src="./seta-para-cima.png" alt="" />
+        <span>Prepare-se Para a Jornada (Onboarding)</span>
+        <span>8 atividades</span>
+      </div>
+      <div id="coursesList1" class="hidden">
+        <div class="course">
+          <img
+            src="https://assets.dio.me/zx9luT484QlxY3vUNzmHprKuT1SWqTCAIHhdN1cmAs8/f:webp/h:77/q:80/w:77/L2NvdXJzZXMvYmFkZ2UvMjU3MWE4NWMtYTMyYy00MTBkLWIwMzgtMTMwZjk2NDEyZTU0LnBuZw"
+            alt="Curso 1"
+          />
+          <div class="course-info">
+            <span class="badge">Curso</span>
+            <strong>Boas-vindas ao Bootcamp</strong>
+            <span class="badge">Básico • 1 hrs</span>
+          </div>
         </div>
         <div class="course">
-            <img src="https://assets.dio.me/zx9luT484QlxY3vUNzmHprKuT1SWqTCAIHhdN1cmAs8/f:webp/h:77/q:80/w:77/L2NvdXJzZXMvYmFkZ2UvMjU3MWE4NWMtYTMyYy00MTBkLWIwMzgtMTMwZjk2NDEyZTU0LnBuZw" alt="Curso 1">
-            <div class="course-info">
-                <span class="badge">Curso</span>
-                <strong>Boas-vindas ao Bootcamp: NTT DATA Diversidade em Tech</strong>
-                <span class="badge">Básico • 1 hrs</span>
-            </div>
-            
+          <img
+            src="https://assets.dio.me/HFM96kf6x3i3QURAfJpNtA1i76mVY2y7R4vIPPh7Swk/f:webp/h:77/q:80/w:77/L2NvdXJzZXMvYmFkZ2UvNTY1ZjQ2MDMtNDk2OS00Y2RlLWJjMDEtZTk2ODNkMjM1MGU4LnBuZw"
+            alt="Curso 1"
+          />
+          <div class="course-info">
+            <span class="badge">Curso</span>
+            <strong>Conheça as Oportunidades da DIO</strong>
+            <span class="badge">Básico • 1 hrs</span>
+          </div>
         </div>
         <div class="course">
-            <img src="https://assets.dio.me/HFM96kf6x3i3QURAfJpNtA1i76mVY2y7R4vIPPh7Swk/f:webp/h:77/q:80/w:77/L2NvdXJzZXMvYmFkZ2UvNTY1ZjQ2MDMtNDk2OS00Y2RlLWJjMDEtZTk2ODNkMjM1MGU4LnBuZw" alt="Curso 1">
-            <div class="course-info">
-                <span class="badge">Curso</span>
-                <strong>Conheça as Oportunidades da DIO</strong>
-                <span class="badge">Básico • 1 hrs</span>
-            </div>
-            
+          <img
+            src="https://assets.dio.me/-rif9cHYk3PgAdVeaBrj74c_27OHOgnefdzEqwvd5yI/f:webp/h:77/q:80/w:77/L2NvdXJzZXMvYmFkZ2UvYmE4MTA1NGYtYjUyZC00ODYyLTgyNTEtODE4M2M3YjA4MGUwLnBuZw"
+            alt="Curso 1"
+          />
+          <div class="course-info">
+            <span class="badge">Curso</span>
+            <strong>Seja Protagonista Neste Bootcamp</strong>
+            <span class="badge">Básico • 1 hrs</span>
+          </div>
         </div>
         <div class="course">
-            <img src="https://assets.dio.me/-rif9cHYk3PgAdVeaBrj74c_27OHOgnefdzEqwvd5yI/f:webp/h:77/q:80/w:77/L2NvdXJzZXMvYmFkZ2UvYmE4MTA1NGYtYjUyZC00ODYyLTgyNTEtODE4M2M3YjA4MGUwLnBuZw" alt="Curso 1">
-            <div class="course-info">
-                <span class="badge">Curso</span>
-                <strong>Seja Protagonista Neste Bootcamp</strong>
-                <span class="badge">Básico • 1 hrs</span>
-            </div>
-        
+          <img
+            src="https://assets.dio.me/K8t6oYDrN_gBI63HY_GRtZs61ji_U4gd2xtQHOa2LRo/f:webp/h:77/q:80/w:77/L3RyYWNrcy81YjRkODQ1OC1lYjUxLTRhNTUtOGRlYy0wMzliMjM3NGEwOTYucG5n"
+            alt="Curso 1"
+          />
+          <div class="course-info">
+            <span class="badge">Curso</span>
+            <strong>Aula Inaugural - NTT DATA Diversidades em Tech</strong>
+            <span class="badge">Básico • 2 hrs</span>
+          </div>
         </div>
         <div class="course">
-            <img src="https://assets.dio.me/K8t6oYDrN_gBI63HY_GRtZs61ji_U4gd2xtQHOa2LRo/f:webp/h:77/q:80/w:77/L3RyYWNrcy81YjRkODQ1OC1lYjUxLTRhNTUtOGRlYy0wMzliMjM3NGEwOTYucG5n" alt="Curso 1">
-            <div class="course-info">
-                <span class="badge">Curso</span>
-                <strong>Aula Inaugural - NTT DATA Diversidades em Tech</strong>
-                <span class="badge">Básico • 2 hrs</span>
-            </div>
+          <img
+            src="https://assets.dio.me/IlpDyHHPZr4LPZQcv10jjsGrtoHvLisIIGITjt49X14/f:webp/h:77/q:80/w:77/L2NvdXJzZXMvYmFkZ2UvZmRkN2M0ZTUtNjU1ZC00YWM0LTlkMmYtN2Q5YWUwMGI3ZjgyLnBuZw"
+            alt="Curso 1"
+          />
+          <div class="course-info">
+            <span class="badge">Curso</span>
+            <strong>Introdução à Programação e Pensamento Computacional</strong>
+            <span class="badge">Básico • 5 hrs</span>
+          </div>
         </div>
         <div class="course">
-                <img src="https://assets.dio.me/IlpDyHHPZr4LPZQcv10jjsGrtoHvLisIIGITjt49X14/f:webp/h:77/q:80/w:77/L2NvdXJzZXMvYmFkZ2UvZmRkN2M0ZTUtNjU1ZC00YWM0LTlkMmYtN2Q5YWUwMGI3ZjgyLnBuZw" alt="Curso 1">
-                <div class="course-info">
-                    <span class="badge">Curso</span>
-                    <strong>Introdução à Programação e Pensamento Computacional</strong>
-                    <span class="badge">Básico • 5 hrs</span>
-         </div>
-        </div>
-         <div class="course">
-                    <img src="https://assets.dio.me/x6YhkVb0OVaLWaE3wgaikzvwNf70GGkHODYjpIUEdi0/f:webp/h:77/q:80/w:77/L2NvdXJzZXMvYmFkZ2UvYzFmMzNiMTgtNDk3Yi00MDhiLTg4NWYtZWU4ZGI3MWQ4NzJiLnBuZw" alt="Curso 1">
-                    <div class="course-info">
-                        <span class="badge">Curso</span>
-                        <strong>Introdução ao Git e ao GitHub</strong>
-                        <span class="badge">Básico • 3 hrs</span>
-                    </div>
+          <img
+            src="https://assets.dio.me/x6YhkVb0OVaLWaE3wgaikzvwNf70GGkHODYjpIUEdi0/f:webp/h:77/q:80/w:77/L2NvdXJzZXMvYmFkZ2UvYzFmMzNiMTgtNDk3Yi00MDhiLTg4NWYtZWU4ZGI3MWQ4NzJiLnBuZw"
+            alt="Curso 1"
+          />
+          <div class="course-info">
+            <span class="badge">Curso</span>
+            <strong>Introdução ao Git e ao GitHub</strong>
+            <span class="badge">Básico • 3 hrs</span>
+          </div>
         </div>
         <div class="course">
-                        <img src="https://assets.dio.me/gwTzhSpoqDCQftW9QAzf4dsJqR3jeqGaKoDl751q10U/f:webp/h:77/q:80/w:77/L2NvdXJzZXMvYmFkZ2UvMDZjZjkzMDktNzk1Zi00ODBmLWIyMjctNWI5YzIwOGJmYjY4LnBuZw" alt="Curso 1">
-                        <div class="course-info">
-                            <span class="badge">Curso</span>
-                            <strong>Como Entregar seu Desafio de Projeto</strong>
-                            <span class="badge">Básico • 1 hrs</span>
-                        </div>
+          <img
+            src="https://assets.dio.me/gwTzhSpoqDCQftW9QAzf4dsJqR3jeqGaKoDl751q10U/f:webp/h:77/q:80/w:77/L2NvdXJzZXMvYmFkZ2UvMDZjZjkzMDktNzk1Zi00ODBmLWIyMjctNWI5YzIwOGJmYjY4LnBuZw"
+            alt="Curso 1"
+          />
+          <div class="course-info">
+            <span class="badge">Curso</span>
+            <strong>Como Entregar seu Desafio de Projeto</strong>
+            <span class="badge">Básico • 1 hrs</span>
+          </div>
         </div>
         <div class="course">
-                            <img src="https://assets.dio.me/Blc8WRZ4Q5DBU9P4l4DojrIz-zWuS9Cc0hkXCbElHQQ/f:webp/h:77/q:80/w:77/L2xhYl9wcm9qZWN0cy9iYWRnZXMvNTgxYTkwN2ItNThkOC00YWQyLWI5YzQtNjlkMDk5MjY3ZTFlLnBuZw" alt="Curso 1">
-                            <div class="course-info">
-                                <span class="badge">Desafio de projeto</span>
-                                <strong>Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso</strong>
-                                <span class="badge">Básico • 2 hrs</span>
-                            </div>
+          <img
+            src="https://assets.dio.me/Blc8WRZ4Q5DBU9P4l4DojrIz-zWuS9Cc0hkXCbElHQQ/f:webp/h:77/q:80/w:77/L2xhYl9wcm9qZWN0cy9iYWRnZXMvNTgxYTkwN2ItNThkOC00YWQyLWI5YzQtNjlkMDk5MjY3ZTFlLnBuZw"
+            alt="Curso 1"
+          />
+          <div class="course-info">
+            <span class="badge">Desafio de projeto</span>
+            <strong
+              >Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu
+              Progresso</strong
+            >
+            <span class="badge">Básico • 2 hrs</span>
+          </div>
         </div>
-               
+      </div>
     </div>
-
-    
-</body>
+    <!--List 2-->
+    <div id="toggleCourses2" class="container">
+      <div class="bd-header" id="toggleCourses">
+        <img class="bd-arrow" src="./seta-para-cima.png" alt="" />
+        <span>Páginas Web com HTML e CSS</span>
+        <span>12 atividades</span>
+      </div>
+      <div id="coursesList2" class="hidden">
+        <div class="course">
+          <img
+            src="https://assets.dio.me/zgyjpmb9lAflCfbkxReVru5UoYmc59BeMAq5MN_eFpA/f:webp/h:77/q:80/w:77/L2NvdXJzZXMvYmFkZ2UvZjhkNGUwMDMtMjM0OS00ZDM3LTk5MGYtNDJmZTI0YjcxZTYzLnBuZw"
+            alt="Curso 1"
+          />
+          <!-- Aulas -->
+          <div class="course-info">
+            <span class="badge">Curso</span>
+            <strong>Entendendo Comunicação Client x Server</strong>
+            <span class="badge">Básico • 2 hrs</span>
+          </div>
+        </div>
+        <div class="course">
+          <img
+            src="https://assets.dio.me/zgyjpmb9lAflCfbkxReVru5UoYmc59BeMAq5MN_eFpA/f:webp/h:77/q:80/w:77/L2NvdXJzZXMvYmFkZ2UvZjhkNGUwMDMtMjM0OS00ZDM3LTk5MGYtNDJmZTI0YjcxZTYzLnBuZw"
+            alt="Curso 1"
+          />
+          <div class="course-info">
+            <span class="badge">Curso</span>
+            <strong>Introdução ao HTML na Prática</strong>
+            <span class="badge">Básico • 2 hrs</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./effect.js"></script>
+  </body>
 </html>

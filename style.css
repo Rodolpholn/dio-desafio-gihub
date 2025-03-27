@@ -1,89 +1,93 @@
-.sc-Nav-Menu
+.sc-Nav-Menu {
+  background-color: rgb(21, 21, 21);
+  padding: 1rem;
+}
 
-    {
-        background-color: rgb(21, 21, 21);
-        padding: 1rem;
-    }
-    .sc-header
-    {
-        display: flex;
-        flex-direction: row;
-        -webkit-box-align: center;
-        align-items: center;
-        -webkit-box-pack: justify;
-        justify-content: space-between;
-        max-width: 1200px;
-        margin: 0px auto;
-    }
-    .sc-header .sc-logo-Git-Gitub
-    {
-    display: flex;
-    flex-direction: row;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    
-    }
+.sc-header {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.sc-header .sc-logo-Git-Gitub {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
 
-    .sc-header .sc-logo-Git-Gitub .sc-Imagem
-    {
-        width: 15%;
-        margin: 0;
-        
-    }
-    .sc-header .sc-Nome
-    {
-        font-size: 1.5rem;
-        color: white;
-        font-family: 'Courier New', Courier, monospace;
-    }
+.sc-header .sc-logo-Git-Gitub .sc-Imagem {
+  width: 15%;
+  margin: 0;
+}
+.sc-header .sc-Nome {
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
 
-    /*Body*/
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #1e1e1e;
-        color: white;
-        padding: 20px;
-    }
-    .container {
-        max-width: 800px;
-        margin: auto;
-        background: #292929;
-        padding: 20px;
-        border-radius: 10px;
-    }
-    .bd-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 18px;
-        font-weight: bold;
-        margin-bottom: 15px;
-        background: #1a1a1a;
-        padding: 15px;
-        border-radius: 10px;
-    }
-    .course {
-        background: #1a1a1a;
-        padding: 15px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-        display: flex;
-        /*justify-content: space-between;*/
-        align-items: center;
-        border: 1px solid #333;
-    }
-    .course-info {
-        display: flex;
-        flex-direction: column;
-    }
-    .badge {
-        font-size: 14px;
-        color: #ff4081;
-    }
-    .course img {
-        width: 10%;
-        margin-right: 15px;
-        border-radius: 5px;
-    }
+/*Body*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 20px;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #292929;
+  padding: 20px;
+  border-radius: 10px;
+}
+.bd-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 10px;
+}
+.course {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  /*justify-content: space-between;*/
+  align-items: center;
+  border: 1px solid #333;
+}
+.course:hover {
+  background: #3d3d3d;
+}
+.course-info {
+  display: flex;
+  flex-direction: column;
+}
+.badge {
+  font-size: 14px;
+  color: #ff4081;
+}
+.course img {
+  width: 10%;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+.hidden {
+  display: none;
+}
+
+.bd-arrow {
+  width: 5%;
+  transform: rotate(180deg);
+}
